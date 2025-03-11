@@ -6,7 +6,7 @@ import { Injectable } from '@nestjs/common'
 @Injectable()
 export class PrismaQuestionsRepository implements QuestionsRepository {
   findById(id: string): Promise<Question | null> {
-    throw new Error('Method not implemented.')
+    const question
   }
 
   findBySlug(slug: string): Promise<Question | null> {
